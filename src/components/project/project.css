@@ -1,0 +1,270 @@
+.project{
+    padding-top:100px;
+  
+}
+
+.project__info{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom:5px;
+    font-size:12px;
+}
+
+.project-container{
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    position: relative;
+    border-top-right-radius: 50px;
+}
+
+.project__images-container{
+    text-align: center;
+    width:640px;
+    overflow-x: auto;
+    display:flex;
+    margin: 0 auto;
+}
+
+.project__text{
+    width:720px;
+    margin:0 auto;
+}
+
+.project__price{
+    position: absolute;
+    top:10px;
+    right:10px;
+    background-color:#000;
+    color:white;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+
+}
+
+.project__price-number{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:24px;
+    font-family: 'PT Sans'
+}
+.project__price-number::after{
+    position:absolute;
+    bottom:65%;
+    right:0%;
+    content:'€';
+    font-size:18px;
+}
+
+.project__images-container::-webkit-scrollbar{
+    /* visibility: hidden; */
+}
+
+.project__images-container:hover::-webkit-scrollbar{
+    /* visibility: visible; */
+}
+
+.project__images-container::after{
+    display:table;
+    clear:both;
+    content:"";
+}
+
+.project__section-title{
+    padding:15px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.project__img{
+    width:640px;
+    height:480px;
+    padding-right:10px;
+}
+
+.project__img-watermark{
+    padding:3px;
+    color:#797D7F;
+    font-style:italic;
+    font-size:13px;
+}
+
+.project__title{
+    text-align:center;
+    font-size: 28px;
+    padding:15px;
+    font-family: 'Merriweather', serif;
+}
+
+.project__paragraph{
+    padding:5px 30px 30px 30px;
+    font-weight:300;
+    font-size: 18px;
+    line-height:1.4;
+    
+}
+
+.project__expercts{
+    padding-bottom:30px;
+}
+
+.project__excerpt{
+    text-align:center;
+    padding-bottom:10px;
+}
+
+.project__excerpt-title::before{
+    content:"“"
+}
+
+.project__excerpt-title::after{
+    content:"„"
+}
+
+
+.project__excerpt-title{
+    font-style:italic;
+    display:inline;
+}
+
+.project__excerpt-quoter{
+    font-weight:700;
+    font-style:italic;
+}
+
+.project__user{
+    padding:10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.10);
+    margin-top:20px;
+    position:relative;
+    border-radius:6px;
+    border-top-left-radius:50px;
+}
+
+.project__user-img{
+    width:100px;
+    height:106px;
+    border-radius: 50%;
+    vertical-align:middle;
+}
+
+.project__user-name{
+    display:inline;
+    padding:10px;
+}
+
+.project__user__bio{
+    text-align:center;
+    font-style:italic;
+    padding:10px;
+}
+
+.companies{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:5px;
+}
+
+.project__user-ref{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    font-style:italic;
+    padding-bottom:15px;
+}
+
+.project__buy-container{
+    text-align:center;
+    padding:50px;
+}
+
+.btn--buy{
+    /* font-size:18px; */
+    padding:10px 20px 10px 20px;
+    font-family:inherit;
+}
+
+.popup{
+    background-color: rgba(66, 66, 66, 0.666);
+    height: 100vh;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.popup__content{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    border-radius: 5px;
+    padding:10px;
+}
+
+.popup__content::after{
+    clear:both;
+    display:table;
+    content:""
+}
+
+
+.popup__header{
+    text-align:center;
+    float:right;
+    /* padding:10px; */
+    /* padding-bottom:40px; */
+}
+.form__input:focus,.form__textarea:focus{
+    outline: none;
+    border: 1.5px solid rgb(108, 107, 107);
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10); */
+}
+
+.form__input{
+    max-width:600px;
+    width:600px;
+    height:20px;
+}
+
+.form__textarea{
+    width:600px;
+}
+
+
+ .form__input,.form__textarea{
+    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.28); */
+    border-style:none;
+    border: 1.5px solid rgb(208, 204, 204);
+    border-radius: 4px;
+    padding:5px;
+    transition: all .2s;
+    font-family: "PT Sans";   
+} 
+
+
+.popup__body{
+    margin: 0 auto;
+   
+}
+
+.form__input-container{
+    padding:10px;
+}
+
+.form__input-title{
+    text-align:none;
+    font-family: "PT Sans";
+    padding-bottom:5px;
+    display:block;
+}
+
+.btn-container{
+    text-align:center;
+}

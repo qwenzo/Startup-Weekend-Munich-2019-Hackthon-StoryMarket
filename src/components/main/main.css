@@ -1,0 +1,162 @@
+section:not(:last-of-type){
+    margin-bottom: 200px;
+}
+.propsations{
+    text-align:center;
+    padding-top:120px;
+}
+
+.propsation__container{
+    text-align:center;
+    display:inline-block;
+    padding:30px;
+    background-color: white;
+    padding:10px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+
+}
+
+.propsation__container:not(:last-child){
+    margin-right:50px;
+}
+
+.projcts-section{
+   
+    /* height: 100vh;
+    *
+    / position:relative; */
+    background-color:#F2F3F4;
+    overflow: hidden;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.prop__img{
+    width:150px;
+}
+
+.prop__title{
+    font-size:17px;
+    text-transform: uppercase;
+}
+
+
+h3{
+    padding-top:5px;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "PT Sans"
+}
+
+.projects-list{
+    list-style: none;
+    margin-top:40px;
+    background-color: white;
+    padding:15px;
+    border-radius: 10px;
+}
+
+.projects-list .stories__title{
+    text-align:center;
+}
+.projects-item:first-of-type{
+    
+}
+
+.stories__title{
+    font-size:32px;
+    padding:12px;
+}
+.projects-item{
+    display:block;
+    /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); */
+    margin-bottom:15px;
+
+}
+
+
+
+.projects-item__header{
+    text-decoration:none;
+    color:#000;
+}
+
+.projects-item__project-container{
+    /* display:table;
+    clear:both; */
+    background-color:#fff;
+    display: flex;
+    flex-wrap: nowrap;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+.projects-item__project-container *{
+    vertical-align:middle;
+    position:relative;
+    /* display:inline-block; */
+    /* display:table-cell; */
+    text-decoration:none;
+    color:#000;
+}
+
+.projects-item__project-image{
+    vertical-align: middle;
+    width:300px;
+    height:200px;
+    padding:10px;
+    float:left;
+}
+
+.projects-item__text{
+    padding:5px 10px 10px 10px;
+    /* width:80%;  */
+    overflow:hidden;
+    font-weight:300;
+}
+
+.projects-item__text-container{
+    max-width:400px;
+    width:400px;
+}
+
+.user{
+    padding:10px;
+    margin:15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    
+}
+
+.user-container{
+    width:30%;
+}
+
+.user__img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    float:left;
+}
+
+.user__name-img-container{
+    display:flex;
+}
+
+.user__name{
+     /* white-space: nowrap;  */
+     padding:10px;
+}
+
+.user__companies{
+    margin-top:5px;
+    display:table;
+    clear:both; 
+    text-align:center;
+}
+
+.user__company-logo{
+    width:32px;
+    height:32px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    margin:2px;
+}
